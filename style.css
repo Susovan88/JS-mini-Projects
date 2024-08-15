@@ -1,0 +1,154 @@
+.random-color{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    height: 3rem;
+    width: 7rem;
+    font-size: 1rem;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    margin-left:3rem ;
+    margin-bottom: 2rem;
+
+}
+.color-box{
+    height: 50%;
+    width: 50%;
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2rem;
+}
+.para{
+    font-size: 2rem;
+}
+.ul{
+    height: 50vh;
+    width: 20vw;
+    border: 3px solid black;
+    border-radius: 1rem;
+    overflow: auto;
+}
+.list{
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+}
+
+
+.game{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-container{
+    height: 50vh;
+    width: 35vw;
+    border: 8px solid black;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+.box{
+    height: 40%;
+    width: 40%;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: 5px solid black;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: rgb(0, 255, 0);
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: rgb(75, 177, 255);
+}
+.gameflash{
+    background-color: rgb(194, 194, 195);
+    box-shadow: 2px 0 2px black;
+    border-radius: 2rem;
+}
+.userFlash{
+    background-color: rgb(78, 77, 77);
+    border-radius: 2rem;
+}
+.collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clr{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 3px solid white;
+}
+.page{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#enter{
+    background-color: #000;
+    color: white;
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+#enter input{
+    height: 40px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#enter label{
+    font-size:20px ;
+    font-weight: 600;
+}
+.info{
+    background-color: #000;
+    color: white;
+    width:30%;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.submit{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    height: 40px;
+    width: 70px;
+    font-weight: 600;
+}
+.output{
+    background-color: #000;
+    color: white;
+    width:30%;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
